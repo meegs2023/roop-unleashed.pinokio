@@ -4,14 +4,14 @@
       "method": "shell.run", 
       "params": {
         "message": "git pull origin master",
-        "path": "roop",
+        "path": "roop-unleashed",
         "error": "pull_error"  
       }
     },
     {
       "method": "notify",
       "params": {
-        "title": "Roop Updated",
+        "title": "Roop Unleashed Updated",
         "description": "Roop has been updated successfully!",
         "type": "success"
       },
@@ -21,7 +21,7 @@
       "method": "notify", 
       "params": {
         "title": "Update Failed",
-        "description": "There was an error updating Roop. Please try again.",
+        "description": "There was an error updating Roop Unleashed. Please try again.",
         "type": "error"
       },
       "when": "pull_error"
